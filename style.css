@@ -1,0 +1,20 @@
+header{
+    text-align: center;
+    font-size: 25px;
+    border: 1px solid #ddd;
+    color: blue;
+}
+
+main{
+    margin-top: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+footer{
+    text-align: center;
+    font-size: 25px;
+    border: 1px solid #ddd;
+    color: blue;
+    margin-top: 10px;
+    }
