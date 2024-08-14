@@ -1,20 +1,96 @@
-header{
-    text-align: center;
-    font-size: 25px;
-    border: 1px solid #ddd;
-    color: blue;
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #1d1d1d;
+  margin: 0px;
+  padding: 0px;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: cursive;
 }
 
-main{
-    margin-top: 10px;
-    text-align: center;
-    border: 1px solid #ddd;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li,
+button {
+  color: white;
+  font-family: cursive;
 }
 
-footer{
-    text-align: center;
-    font-size: 25px;
-    border: 1px solid #ddd;
-    color: blue;
-    margin-top: 10px;
-    }
+.header_h1 {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: block;
+  font-size: 20px;
+  margin: 0px;
+  padding: 0px;
+}
+
+ul {
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+li {
+  border: 1px solid;
+  padding: 5px;
+  margin: 10px;
+  cursor: not-allowed;
+}
+
+button {
+  border: 1px solid red;
+  padding: 10px;
+  margin: 10px;
+  /* cursor: copy; */
+  background-color: #410202;
+  border-radius: 4px;
+  cursor: pointer;
+  cursor: pointer;
+}
+
+button :hover {
+  /* border: 1px solid red; */
+  /* padding: 10px; */
+  /* margin: 10px; */
+  cursor: context-menu;
+  background-color: red;
+  color: black;
+}
+
+input {
+  /* display: flex;
+  flex-direction: column; */
+  background: #dedbdb;
+}
+
+main,
+/* .login, */
+input {
+  display: inline-flex;
+  flex-direction: column;
+  padding: 10px 3%;
+  width: 400px;
+  margin: 10px;
+  border-radius: 4px;
+}
+.hdr {
+  display: none;
+}
+
+hr {
+  width: 70%;
+  color: #3b3b3b;
+  background-color: #3b3b3b;
+  display: block;
+}

@@ -1,0 +1,47 @@
+:root {
+  --background_color: #1d1d1d;
+  --white_color: #fff;
+  --hr_color: #3b3b3b;
+  --button_outlook: red;
+}
+
+hr {
+  display: none;
+}
+
+.hdr {
+  display: block;
+}
+
+.header_h1_front {
+  font-size: 8px;
+  border-bottom: 1px solid var(--hr_color);
+}
+
+.nav_menu {
+  margin: 0px;
+  padding: 0px;
+  border-bottom: 1px solid var(--hr_color);
+}
+.hdr {
+  margin: 0px;
+  padding: 0px;
+}
+.hdr1 {
+  margin: 1px;
+  padding: 4px;
+}
+.header_sec {
+  margin: 2px;
+  padding: 3px 10px;
+}
+
+.parent_div0 {
+  margin: 0px;
+  padding: 0px;
+}
+.foot {
+  margin: 0px;
+  padding: 0px;
+  border-top: 1px solid var(--hr_color);
+}
